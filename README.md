@@ -2,7 +2,7 @@
 
 ## :computer: Specification
 
-| **Component** | **Model**                                                 |
+| **Component** | **Detail**                                                |
 | ------------- | --------------------------------------------------------- |
 | **CPU**       | Intel Core i5-8250U Processor                             |
 | **GPU**       | Intel UHD Graphics 620                                    |
