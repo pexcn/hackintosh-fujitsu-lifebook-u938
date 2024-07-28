@@ -1,1 +1,5 @@
+System Volume Information/
+.fseventsd/
+.Spotlight-V100/
 .DS_Store
+opencore-*.txt
