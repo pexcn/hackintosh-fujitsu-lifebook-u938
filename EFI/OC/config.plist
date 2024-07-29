@@ -204,6 +204,25 @@
 				<key>layout-id</key>
 				<data>FgAAAA==</data>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x1D,0x0)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,29,0/0,0</string>
+				<key>IOName</key>
+				<string>pci1217,8520</string>
+				<key>compatible</key>
+				<string>pci1217,8520</string>
+				<key>device-id</key>
+				<data>IIU=</data>
+				<key>device_type</key>
+				<string>SD Host controller</string>
+				<key>model</key>
+				<string>SD/MMC Card Reader Controller</string>
+				<key>name</key>
+				<string>pci1217,8520</string>
+				<key>vendor-id</key>
+				<data>FxI=</data>
+			</dict>
 		</dict>
 		<key>Delete</key>
 		<dict/>
@@ -493,6 +512,24 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>CtlnaSDXC.kext</string>
+				<key>Comment</key>
+				<string>CtlnaSDXC.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/CtlnaSDXC</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
