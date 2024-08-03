@@ -16,8 +16,30 @@
 | **TouchPad**    | //TODO                                                    |
 | **Card Reader** | //TODO                                                    |
 
+## :unlock: BIOS Settings
+
+Set the following BIOS options via [`setup_var.efi`](https://github.com/datasone/setup_var.efi).
+
+```sh
+# CFG Lock
+setup_var.efi CpuSetup:0x3C=0x00
+
+# Above 4GB MMIO BIOS assignment
+setup_var.efi SaSetup:0xE4=0x01
+
+# Intel(R) SGX
+setup_var.efi CpuSetup:0xF2=0x00
+
+# DVMT Pre-Allocated
+setup_var.efi SaSetup:0xDF=0x02
+
+# DVMT Total Gfx Mem
+setup_var.efi SaSetup:0xE0=0x03
+```
+
 ## :x: Not Working
 
-- Black screen after waking up from sleep
 - Card Reader
-- HDMI
+- Fingerprint Sensor
+- Black screen after waking up from sleep
+- HDMI no signal output after hotplugs
