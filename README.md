@@ -15,3 +15,9 @@
 | **Keyboard**    | //TODO                                                    |
 | **TouchPad**    | //TODO                                                    |
 | **Card Reader** | //TODO                                                    |
+
+## :x: Not Working
+
+- Black screen after waking up from sleep
+- Card Reader
+- HDMI
