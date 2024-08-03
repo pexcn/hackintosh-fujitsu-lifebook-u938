@@ -190,8 +190,6 @@
 				<data>AADAhw==</data>
 				<key>device-id</key>
 				<data>FlkAAA==</data>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,2,0</string>
 				<key>AAPL00,override-no-connect</key>
 				<data>AP///////wBNEIMUAAAAAAUbAQSlHRF4Bt5Qo1RMmSYPUFQAAAABAQEBAQEBAQEBAQEBAQEBrTaAYnA4TEAJCQUMJqUQAAAYrTaAYnA4bUEJCQUMJqUQAAAYAAAAEAAAAAAAAAAAAAAAAAAAAAAA/ABMUTEzM00xSlcyOAogAHY=</data>
 				<key>framebuffer-patch-enable</key>
