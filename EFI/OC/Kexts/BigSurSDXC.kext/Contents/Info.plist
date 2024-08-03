@@ -7,15 +7,15 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>CtlnaSDXC</string>
+	<string>BigSurSDXC</string>
 	<key>CFBundleGetInfoString</key>
 	<string>1.9.0, Copyright Apple Inc. 2009-2020</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.apple.driver.CtlnaSDXC</string>
+	<string>com.apple.driver.BigSurSDXC</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>CtlnaSDXC</string>
+	<string>BigSurSDXC</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
@@ -46,16 +46,16 @@
 	<string>12E6178j</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>CtlnaSDXC</key>
+		<key>BigSurSDXC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.CtlnaSDXC</string>
+			<string>com.apple.driver.BigSurSDXC</string>
 			<key>IONameMatch</key>
 			<array>
 				<string>pci1217,8520</string>
 			</array>
 			<key>IOClass</key>
-			<string>CtlnaSDXC</string>
+			<string>BgSurSDXC</string>
 			<key>IOPCIPauseCompatible</key>
 			<true/>
 			<key>IOPCITunnelCompatible</key>
@@ -72,10 +72,10 @@
 			<key>IOProbeScore</key>
 			<integer>6000</integer>
 		</dict>
-		<key>CtlnaSDXCBlockStorageDevice</key>
+		<key>BigSurSDXCBlockStorageDevice</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.CtlnaSDXC</string>
+			<string>com.apple.driver.BigSurSDXC</string>
 			<key>Device Characteristics</key>
 			<dict>
 				<key>Product Name</key>
@@ -84,7 +84,7 @@
 				<string>Apple</string>
 			</dict>
 			<key>IOClass</key>
-			<string>CtlnaSDXCBlockStorageDevice</string>
+			<string>BgSurSDXCBlockStorageDevice</string>
 			<key>IOMediaIcon</key>
 			<dict>
 				<key>CFBundleIdentifier</key>
@@ -93,7 +93,7 @@
 				<string>SD.icns</string>
 			</dict>
 			<key>IOProviderClass</key>
-			<string>CtlnaSDXCSlot</string>
+			<string>BgSurSDXCSlot</string>
 		</dict>
 	</dict>
 	<key>LSMinimumSystemVersion</key>
@@ -108,9 +108,9 @@
 		<string>1.2.7</string>
 		<key>com.apple.kpi.bsd</key>
 		<string>9.0.0</string>
-		<key>com.apple.kpi.iokit</key>
-		<string>9.0.0</string>
 		<key>com.apple.kpi.libkern</key>
+		<string>9.0.0</string>
+		<key>com.apple.kpi.iokit</key>
 		<string>9.0.0</string>
 		<key>com.apple.kpi.mach</key>
 		<string>9.0.0</string>
