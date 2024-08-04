@@ -12,9 +12,11 @@
 | **Wireless**    | ~~Intel Dual Band Wireless-AC 8265~~ Intel Wi-Fi 6 AX200  |
 | **Ethernet**    | Intel Ethernet Connection I219-LM                         |
 | **Audio**       | Realtek ALC255 HD Audio                                   |
-| **Keyboard**    | //TODO                                                    |
-| **TouchPad**    | //TODO                                                    |
-| **Card Reader** | //TODO                                                    |
+| **Camera**      | Chicony Electronics FJ Camera                             |
+| **Keyboard**    | Fujitsu PS/2 Japanese keyboard (106/109 Key)              |
+| **TouchPad**    | Synaptics SMBus TouchPad                                  |
+| **Card Reader** | O2 Micro SD/MMC Card Reader Controller                    |
+| **Fingerprint** | Validity Sensors Swipe Fingerprint Sensor                 |
 
 ## :unlock: BIOS Settings
 
@@ -41,4 +43,7 @@ setup_var.efi SaSetup:0xE0=0x03
 
 - Card Reader
 - Fingerprint Sensor
+- Black screen after connected HDMI
 - HDMI no signal output after hotplugs
+- Enable `NVMeFix.kext` will randomly stuck at booting
+- SMBus
