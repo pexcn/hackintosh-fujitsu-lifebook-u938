@@ -41,5 +41,4 @@ setup_var.efi SaSetup:0xE0=0x03
 
 - Card Reader
 - Fingerprint Sensor
-- Black screen after waking up from sleep
 - HDMI no signal output after hotplugs
