@@ -194,10 +194,10 @@
 				<data>AP///////wBNEIMUAAAAAAUbAQSlHRF4Bt5Qo1RMmSYPUFQAAAABAQEBAQEBAQEBAQEBAQEBrTaAYnA4TEAJCQUMJqUQAAAYrTaAYnA4bUEJCQUMJqUQAAAYAAAAEAAAAAAAAAAAAAAAAAAAAAAA/ABMUTEzM00xSlcyOAogAHY=</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AAAAAA==</data>
-				<key>framebuffer-stolenmem</key>
-				<data>AABgAg==</data>
 				<key>framebuffer-fbmem</key>
 				<data>AABQAQ==</data>
+				<key>framebuffer-stolenmem</key>
+				<data>AABgAg==</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>AAAAgA==</data>
 				<key>framebuffer-con1-enable</key>
@@ -945,6 +945,33 @@
 		</dict>
 		<key>Serial</key>
 		<dict>
+			<key>Custom</key>
+			<dict>
+				<key>BaudRate</key>
+				<integer>115200</integer>
+				<key>ClockRate</key>
+				<integer>1843200</integer>
+				<key>DetectCable</key>
+				<false/>
+				<key>ExtendedTxFifoSize</key>
+				<integer>64</integer>
+				<key>FifoControl</key>
+				<integer>7</integer>
+				<key>LineControl</key>
+				<integer>7</integer>
+				<key>PciDeviceInfo</key>
+				<data>/w==</data>
+				<key>RegisterAccessWidth</key>
+				<integer>8</integer>
+				<key>RegisterBase</key>
+				<integer>1016</integer>
+				<key>RegisterStride</key>
+				<integer>1</integer>
+				<key>UseHardwareFlowControl</key>
+				<false/>
+				<key>UseMmio</key>
+				<false/>
+			</dict>
 			<key>Init</key>
 			<false/>
 			<key>Override</key>
@@ -1000,10 +1027,10 @@
 		</dict>
 		<key>LegacyOverwrite</key>
 		<false/>
-		<key>LegacySchema</key>
-		<dict/>
 		<key>WriteFlash</key>
 		<true/>
+		<key>LegacySchema</key>
+		<dict/>
 	</dict>
 	<key>PlatformInfo</key>
 	<dict>
@@ -1222,10 +1249,10 @@
 			<false/>
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
-			<key>UIScale</key>
-			<integer>0</integer>
 			<key>UgaPassThrough</key>
 			<false/>
+			<key>UIScale</key>
+			<integer>0</integer>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
