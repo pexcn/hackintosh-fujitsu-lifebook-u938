@@ -1,4 +1,4 @@
-# Hackintosh Fujitsu Lifebook U938
+# :green_apple: Hackintosh Fujitsu Lifebook U938
 
 ## :computer: Specification
 
