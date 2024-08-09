@@ -46,4 +46,11 @@ setup_var.efi SaSetup:0xE0=0x03
 - Black screen after connected HDMI
 - HDMI no signal output after hotplugs
 - Enable `NVMeFix.kext` will randomly stuck at booting
-- SMBus
+- High CPU usage when enable `VoodooSMBus.kext`, but if not enabled, `RMISMBus.kext` will not work
+  ```
+  24:836 00:017 OC: Prelinked injection VoodooRMI.kext\Contents\PlugIns\RMISMBus.kext (RMISMBus.kext) - Invalid Parameter
+  ```
+- `ECEnabler.kext` not work?
+  ```
+  23:525 00:016 OC: Prelinked injection ECEnabler.kext (ECEnabler.kext) - Invalid Parameter
+  ```
