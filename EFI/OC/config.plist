@@ -192,6 +192,8 @@
 				<data>FlkAAA==</data>
 				<key>AAPL00,override-no-connect</key>
 				<data>AP///////wBNEIMUAAAAAAUbAQSlHRF4Bt5Qo1RMmSYPUFQAAAABAQEBAQEBAQEBAQEBAQEBrTaAYnA4TEAJCQUMJqUQAAAYrTaAYnA4bUEJCQUMJqUQAAAYAAAAEAAAAAAAAAAAAAAAAAAAAAAA/ABMUTEzM00xSlcyOAogAHY=</data>
+				<key>enable-hdmi-dividers-fix</key>
+				<data>AQAAAA==</data>
 				<key>framebuffer-patch-enable</key>
 				<data>AAAAAA==</data>
 				<key>framebuffer-fbmem</key>
