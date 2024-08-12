@@ -188,20 +188,12 @@
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>BQAcWQ==</data>
-				<key>device-id</key>
-				<data>FlkAAA==</data>
 				<key>AAPL00,override-no-connect</key>
 				<data>AP///////wBNEIMUAAAAAAUbAQSlHRF4Bt5Qo1RMmSYPUFQAAAABAQEBAQEBAQEBAQEBAQEBrTaAYnA4TEAJCQUMJqUQAAAYrTaAYnA4bUEJCQUMJqUQAAAYAAAAEAAAAAAAAAAAAAAAAAAAAAAA/ABMUTEzM00xSlcyOAogAHY=</data>
+				<key>device-id</key>
+				<data>FlkAAA==</data>
 				<key>enable-hdmi-dividers-fix</key>
 				<data>AQAAAA==</data>
-				<key>framebuffer-patch-enable</key>
-				<data>AAAAAA==</data>
-				<key>framebuffer-fbmem</key>
-				<data>AABQAQ==</data>
-				<key>framebuffer-stolenmem</key>
-				<data>AABgAg==</data>
-				<key>framebuffer-unifiedmem</key>
-				<data>AAAAgA==</data>
 				<key>framebuffer-con1-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con1-type</key>
@@ -210,6 +202,14 @@
 				<data>AQAAAA==</data>
 				<key>framebuffer-con2-type</key>
 				<data>AAgAAA==</data>
+				<key>framebuffer-fbmem</key>
+				<data>AABQAQ==</data>
+				<key>framebuffer-patch-enable</key>
+				<data>AAAAAA==</data>
+				<key>framebuffer-stolenmem</key>
+				<data>AABgAg==</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>AAAAgA==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
