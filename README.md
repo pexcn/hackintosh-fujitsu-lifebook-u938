@@ -15,7 +15,7 @@
 | **Camera**      | Chicony Electronics FJ Camera                             |
 | **Keyboard**    | Fujitsu PS/2 Japanese keyboard (106/109 Key)              |
 | **TouchPad**    | Synaptics SMBus TouchPad                                  |
-| **Card Reader** | O2 Micro SD/MMC Card Reader Controller                    |
+| **Card Reader** | O2Micro Integrated MMC/SD Controller                      |
 | **Fingerprint** | Validity Sensors Swipe Fingerprint Sensor                 |
 
 ## :unlock: BIOS Settings
