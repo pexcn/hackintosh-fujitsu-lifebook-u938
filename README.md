@@ -6,17 +6,17 @@
 | --------------- | --------------------------------------------------------- |
 | **CPU**         | Intel Core i5-8250U Processor                             |
 | **GPU**         | Intel UHD Graphics 620                                    |
-| **RAM**         | Gloway 16GB 2666MHz DDR4 + 4GB Non-removable 2400MHz DDR4 |
+| **RAM**         | 4GB Non-removable 2400MHz DDR4 + Gloway 16GB 2666MHz DDR4 |
 | **SSD**         | Lenovo X780 256GB NVMe SSD                                |
-| **Display**     | 13.3" 1920x1080p                                          |
-| **Wireless**    | ~~Intel Dual Band Wireless-AC 8265~~ Intel Wi-Fi 6 AX200  |
-| **Ethernet**    | Intel Ethernet Connection I219-LM                         |
+| **Display**     | Sharp LQ133M1JW28 13.3" 1920x1080p                        |
 | **Audio**       | Realtek ALC255 HD Audio                                   |
+| **Ethernet**    | Intel Ethernet Connection I219-LM                         |
+| **Wireless**    | ~~Intel Dual Band Wireless-AC 8265~~ Intel Wi-Fi 6 AX200  |
 | **Camera**      | Chicony Electronics FJ Camera                             |
 | **Keyboard**    | Fujitsu PS/2 Japanese keyboard (106/109 Key)              |
 | **TouchPad**    | Synaptics SMBus TouchPad                                  |
-| **Card Reader** | O2 Micro SD/MMC Card Reader Controller                    |
 | **Fingerprint** | Validity Sensors Swipe Fingerprint Sensor                 |
+| **Card Reader** | O2Micro SD/MMC Card Reader Controller                     |
 
 ## :unlock: BIOS Settings
 
