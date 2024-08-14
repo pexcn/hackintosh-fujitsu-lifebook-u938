@@ -16,7 +16,7 @@
 | **Keyboard**    | Fujitsu PS/2 Japanese keyboard (106/109 Key)              |
 | **TouchPad**    | Synaptics SMBus TouchPad                                  |
 | **Fingerprint** | Validity Sensors Swipe Fingerprint Sensor                 |
-| **Card Reader** | O2Micro SD/MMC Card Reader Controller                     |
+| **Card Reader** | O2Micro Integrated MMC/SD Controller                      |
 
 ## :unlock: BIOS Settings
 
