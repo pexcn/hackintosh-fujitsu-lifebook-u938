@@ -17,6 +17,7 @@
 | **TouchPad**    | Synaptics SMBus TouchPad                                  |
 | **Fingerprint** | Validity Sensors Swipe Fingerprint Sensor                 |
 | **Card Reader** | O2Micro Integrated MMC/SD Controller                      |
+| **SMBIOS**      | `MacBookPro15,4` ~~`MacbookPro14,1`~~                     |
 
 ## :unlock: BIOS Settings
 
