@@ -6,3 +6,4 @@
 - https://dortania.github.io/OpenCanopy-Gallery/
 - Disable fingerprint sensor and cart reader to save power
 - USB mapping again (Try USB 2.0 and 3.0)
+- Run multiple commands in `com.sicreative.VoltageShift.plist`
