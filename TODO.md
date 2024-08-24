@@ -8,3 +8,4 @@
 - USB mapping again (Try USB 2.0 and 3.0)
 - Run multiple commands in `com.sicreative.VoltageShift.plist`
 - Check battery working?
+- Fix `voltageshift` path

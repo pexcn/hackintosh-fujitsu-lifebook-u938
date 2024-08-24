@@ -3,9 +3,9 @@
 ~~`com.sicreative.VoltageShift.plist` is built by the following command:~~ Now I use my customized method.
 
 ```sh
-# CPU: -25 mV
+# CPU: -100 mV
 # GPU: -50 mV
-# CPU Cache: -25 mV
+# CPU Cache: -100 mV
 # System Agency: -50 mV
 # Analog IO: 0 mV
 # Digital IO: 0 mV
@@ -14,7 +14,7 @@
 # Power Limit 2: not change
 # Remain: not unload kext
 # Execute Interval: every 10 mins
-sudo ./voltageshift buildlaunchd -25 -50 -25 -50 0 0 -1 0 0 1 10
+sudo ./voltageshift buildlaunchd -100 -50 -100 -50 0 0 -1 0 0 1 10
 ```
 
 This is a better way to set PL1/PL2, because it can effective immediately:
@@ -30,21 +30,21 @@ This is a better way to set PL1/PL2, because it can effective immediately:
 Here's alternative way to undervolt:
 
 ```sh
-# CPU Core: -25 mV
-# CPU Cache: -25 mV
-# iGPU Slice: -50 mV
-# iGPU Unslice: -50 mV
-./voltageshift write 0x150 0x80000011FCE00000
-./voltageshift write 0x150 0x80000211FCE00000
-./voltageshift write 0x150 0x80000111F9A00000
-./voltageshift write 0x150 0x80000311F9A00000
-
 # CPU Core: -100 mV
 # CPU Cache: -100 mV
 # iGPU Slice: -50 mV
 # iGPU Unslice: -50 mV
-#./voltageshift write 0x150 0x80000011F3400000
-#./voltageshift write 0x150 0x80000211F3400000
+./voltageshift write 0x150 0x80000011F3400000
+./voltageshift write 0x150 0x80000211F3400000
+./voltageshift write 0x150 0x80000111F9A00000
+./voltageshift write 0x150 0x80000311F9A00000
+
+# CPU Core: -25 mV
+# CPU Cache: -25 mV
+# iGPU Slice: -50 mV
+# iGPU Unslice: -50 mV
+#./voltageshift write 0x150 0x80000011FCE00000
+#./voltageshift write 0x150 0x80000211FCE00000
 #./voltageshift write 0x150 0x80000111F9A00000
 #./voltageshift write 0x150 0x80000311F9A00000
 ```
