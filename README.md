@@ -40,6 +40,19 @@ setup_var.efi SaSetup:0xDF=0x02
 setup_var.efi SaSetup:0xE0=0x03
 ```
 
+## :hammer: Usage
+
+1. Generate SMBIOS info and put into `config.plist`.
+2. //TODO
+3. Additionals:
+```sh
+# Enable HiDPI (optional)
+curl -sSL https://github.com/pexcn/hackintosh-fujitsu-lifebook-u938/raw/master/extras/hidpi/enable.sh | sudo sh -
+
+# Undervolt and Boost (optional)
+#TODO
+```
+
 ## :x: Not Working
 
 - Card Reader
