@@ -1,6 +1,6 @@
 # VoltageShift
 
-`com.sicreative.VoltageShift.plist` is built by the following command:
+~~`com.sicreative.VoltageShift.plist` is built by the following command:~~ Now I use my customized method.
 
 ```sh
 # CPU: -25 mV

@@ -8,18 +8,14 @@
 		<string>com.sicreative.VoltageShift</string>
 		<key>ProgramArguments</key>
 		<array>
-			<string>/Library/Application Support/VoltageShift/voltageshift</string>
-			<string>offsetdaemons</string>
-			<string>-25</string>
-			<string>-50</string>
-			<string>-25</string>
-			<string>-50</string>
-			<string>0</string>
-			<string>0</string>
-			<string>-1</string>
-			<string>0</string>
-			<string>0</string>
-			<string>1</string>
+			<string>bash</string>
+			<string>-c</string>
+			<string>
+			  "/Library/Application Support/VoltageShift/voltageshift" offset -25 -50 -25 -50
+			  "/Library/Application Support/VoltageShift/voltageshift" write 0x610 0x42819000EB80B0
+			  "/Library/Application Support/VoltageShift/voltageshift" wrmem 0xFED159A0 0xEB80B0
+			  "/Library/Application Support/VoltageShift/voltageshift" wrmem 0xFED159A4 0x428190
+			</string>
 		</array>
 		<key>StartCalendarInterval</key>
 		<array>
