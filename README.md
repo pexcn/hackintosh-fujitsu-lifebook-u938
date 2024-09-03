@@ -64,7 +64,3 @@ curl -sSL https://github.com/pexcn/hackintosh-fujitsu-lifebook-u938/raw/master/e
   ```
   24:836 00:017 OC: Prelinked injection VoodooRMI.kext\Contents\PlugIns\RMISMBus.kext (RMISMBus.kext) - Invalid Parameter
   ```
-- `ECEnabler.kext` not work?
-  ```
-  23:525 00:016 OC: Prelinked injection ECEnabler.kext (ECEnabler.kext) - Invalid Parameter
-  ```
