@@ -8,3 +8,5 @@ chmod +x /usr/local/bin/voltageshift
 curl https://github.com/pexcn/hackintosh-fujitsu-lifebook-u938/raw/master/extras/voltageshift/com.sicreative.VoltageShift.plist \
   -L -O --output-dir /Library/LaunchDaemons/
 chown root:wheel /Library/LaunchDaemons/com.sicreative.VoltageShift.plist
+
+launchctl bootstrap system /Library/LaunchDaemons/com.sicreative.VoltageShift.plist
