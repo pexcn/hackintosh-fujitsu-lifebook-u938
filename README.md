@@ -67,7 +67,7 @@ setup_var.efi SaSetup:0xE0=0x03
    curl -sSL https://github.com/pexcn/hackintosh-fujitsu-lifebook-u938/raw/master/extras/hidpi/enable.sh | sudo sh -
 
    # Undervolt and Boost (optional)
-   #TODO
+   curl -sSL https://github.com/pexcn/hackintosh-fujitsu-lifebook-u938/raw/master/extras/voltageshift/enable.sh | sudo sh -
    ```
 
 ## :x: Not Working
