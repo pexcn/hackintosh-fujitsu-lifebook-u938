@@ -11,10 +11,10 @@
 			<string>/bin/bash</string>
 			<string>-c</string>
 			<string>
-			  voltageshift offset -100 -50 -100 -50
-			  voltageshift write 0x610 0x42819000EB80B0
-			  voltageshift wrmem 0xFED159A0 0xEB80B0
-			  voltageshift wrmem 0xFED159A4 0x428190
+			  /usr/local/bin/voltageshift offset -100 -50 -100 -50
+			  /usr/local/bin/voltageshift write 0x610 0x42819000EB80B0
+			  /usr/local/bin/voltageshift wrmem 0xFED159A0 0xEB80B0
+			  /usr/local/bin/voltageshift wrmem 0xFED159A4 0x428190
 			</string>
 		</array>
 		<key>StartCalendarInterval</key>
