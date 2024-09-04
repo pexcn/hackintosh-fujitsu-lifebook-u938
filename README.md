@@ -42,16 +42,33 @@ setup_var.efi SaSetup:0xE0=0x03
 
 ## :hammer: Usage
 
-1. Generate SMBIOS info and put into `config.plist`.
-2. //TODO
-3. Additionals:
-```sh
-# Enable HiDPI (optional)
-curl -sSL https://github.com/pexcn/hackintosh-fujitsu-lifebook-u938/raw/master/extras/hidpi/enable.sh | sudo sh -
+1. Generate SMBIOS info and put it into `config.plist`.
 
-# Undervolt and Boost (optional)
-#TODO
-```
+2. Put your EFI into EFI partition.
+
+   ```sh
+   # Find EFI partition
+   diskutil list
+
+   # Mount EFI partition
+   sudo diskutil mount disk0s1
+
+   # Copy EFI to /Volumes/EFI
+   cp -a /path/to/your/EFI /Volumes/EFI/
+
+   # Umount EFI partition
+   diskutil umount disk0s1
+   ```
+
+3. Additionals:
+
+   ```sh
+   # Enable HiDPI (optional)
+   curl -sSL https://github.com/pexcn/hackintosh-fujitsu-lifebook-u938/raw/master/extras/hidpi/enable.sh | sudo sh -
+
+   # Undervolt and Boost (optional)
+   #TODO
+   ```
 
 ## :x: Not Working
 
@@ -61,6 +78,7 @@ curl -sSL https://github.com/pexcn/hackintosh-fujitsu-lifebook-u938/raw/master/e
 - HDMI no signal output after hotplugs
 - Enable `NVMeFix.kext` will randomly stuck at booting
 - High CPU usage when enable `VoodooSMBus.kext`, but if not enabled, `RMISMBus.kext` will not work
-  ```
-  24:836 00:017 OC: Prelinked injection VoodooRMI.kext\Contents\PlugIns\RMISMBus.kext (RMISMBus.kext) - Invalid Parameter
-  ```
+
+   ```log
+   24:836 00:017 OC: Prelinked injection VoodooRMI.kext\Contents\PlugIns\RMISMBus.kext (RMISMBus.kext) - Invalid Parameter
+   ```
