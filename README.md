@@ -43,7 +43,6 @@ setup_var.efi SaSetup:0xE0=0x03
 ## :hammer: Usage
 
 1. Generate SMBIOS info and put it into `config.plist`.
-
 2. Put your EFI into EFI partition.
 
    ```sh
