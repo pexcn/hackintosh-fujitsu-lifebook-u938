@@ -1,7 +1,7 @@
 #!/bin/sh
 
 curl https://github.com/pexcn/hackintosh-fujitsu-lifebook-u938/raw/master/extras/voltageshift/voltageshift \
-  -L -O --output-dir /usr/local/bin/
+  -L -O --create-dirs --output-dir /usr/local/bin/
 chown root:wheel /usr/local/bin/voltageshift
 chmod +x /usr/local/bin/voltageshift
 
