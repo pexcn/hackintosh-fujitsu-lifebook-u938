@@ -35,9 +35,6 @@ setup_var.efi CpuSetup:0xF2=0x00
 
 # DVMT Pre-Allocated
 setup_var.efi SaSetup:0xDF=0x02
-
-# DVMT Total Gfx Mem
-setup_var.efi SaSetup:0xE0=0x03
 ```
 
 ## :hammer: Usage
