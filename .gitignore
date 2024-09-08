@@ -3,4 +3,6 @@
 .DS_Store
 ._*
 System Volume Information/
+EFI/FUJITSU/
+EFI/Microsoft/
 opencore-*.txt
