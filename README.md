@@ -72,7 +72,6 @@ setup_var.efi SaSetup:0xDF=0x02
 - Fingerprint Sensor
 - Black screen after connected HDMI
 - HDMI no signal output after hotplugs
-- Enable `NVMeFix.kext` will randomly stuck at booting
 - High CPU usage when enable `VoodooSMBus.kext`, but if not enabled, `RMISMBus.kext` will not work
 
    ```log
