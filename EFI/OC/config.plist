@@ -196,8 +196,6 @@
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>BQAcWQ==</data>
-				<key>AAPL00,override-no-connect</key>
-				<data>AP///////wBNEIMUAAAAAAUbAQSlHRF4Bt5Qo1RMmSYPUFQAAAABAQEBAQEBAQEBAQEBAQEBrTaAYnA4TEAJCQUMJqUQAAAYrTaAYnA4bUEJCQUMJqUQAAAYAAAAEAAAAAAAAAAAAAAAAAAAAAAA/ABMUTEzM00xSlcyOAogAHY=</data>
 				<key>device-id</key>
 				<data>FlkAAA==</data>
 				<key>hda-gfx</key>
