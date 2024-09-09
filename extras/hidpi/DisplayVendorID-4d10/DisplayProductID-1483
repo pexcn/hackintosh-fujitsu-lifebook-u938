@@ -8,10 +8,11 @@
         <integer>19728</integer>
         <key>scale-resolutions</key>
         <array>
-            <data>AAANIAAAB2IA</data>
-            <data>AAALIAAABkQA</data>
-            <data>AAAKAAAABaAA</data>
-            <data>AAAIAAAABIAA</data>
+            <data>AAANIAAAB2IAAAAB</data>
+            <data>AAANIAAAB2IAAAABACAAAA==</data>
+            <data>AAAMAAAABsAAAAAB</data>
+            <data>AAAMAAAABsAAAAABACAAAA==</data>
+            <data>AAAKoAAABfoAAAABACAAAA==</data>
             <data>AAAKAAAABkAAAAABACAAAA==</data>
             <data>AAAKAAAABaAAAAABACAAAA==</data>
             <data>AAAHgAAABLAAAAABACAAAA==</data>
