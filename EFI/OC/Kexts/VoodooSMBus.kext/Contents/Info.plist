@@ -69,7 +69,7 @@
 			<key>IOClass</key>
 			<string>VoodooSMBusIntelLpssI2C</string>
 			<key>IOPCIMatch</key>
-			<string>0x9d608086</string>
+			<string>0x9d608086 0x9d238086</string>
 			<key>IOPCIMatchComment</key>
 			<string>Dummy IntelLpssI2CDriver</string>
 			<key>IOProbeScore</key>
