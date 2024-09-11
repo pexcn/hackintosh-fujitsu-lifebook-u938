@@ -190,8 +190,6 @@
 				<data>BQAcWQ==</data>
 				<key>device-id</key>
 				<data>FlkAAA==</data>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
 				<key>enable-hdmi-dividers-fix</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con1-enable</key>
@@ -210,6 +208,8 @@
 				<data>AAAgAg==</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>AAAAgA==</data>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
