@@ -72,8 +72,3 @@ setup_var.efi SaSetup:0xDF=0x02
 - Fingerprint Sensor
 - Black screen after connected HDMI
 - HDMI no signal output after hotplugs
-- High CPU usage when enable `VoodooSMBus.kext`, but if not enabled, `RMISMBus.kext` will not work
-
-   ```log
-   24:836 00:017 OC: Prelinked injection VoodooRMI.kext\Contents\PlugIns\RMISMBus.kext (RMISMBus.kext) - Invalid Parameter
-   ```
