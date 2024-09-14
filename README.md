@@ -66,6 +66,9 @@ setup_var.efi SaSetup:0xDF=0x02
 
    # Undervolt and Boost (optional)
    curl -sSL https://github.com/pexcn/hackintosh-fujitsu-lifebook-u938/raw/master/extras/voltageshift/enable.sh | sudo sh -
+
+   # Optimize (optional)
+   curl -sSL https://github.com/pexcn/hackintosh-fujitsu-lifebook-u938/raw/master/extras/optimize/pmset.sh | sudo sh -
    ```
 
 ## :x: Not Working
