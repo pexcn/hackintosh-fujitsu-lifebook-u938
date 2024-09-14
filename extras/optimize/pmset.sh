@@ -15,7 +15,7 @@ pmset -a displaysleep 10
 
 # disable hibernation
 pmset -a hibernatemode 0
-rm /var/vm/sleepimage
+rm -f /var/vm/sleepimage
 touch /var/vm/sleepimage
 chflags schg /var/vm/sleepimage
 
