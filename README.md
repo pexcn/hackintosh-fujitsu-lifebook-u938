@@ -39,7 +39,7 @@ setup_var.efi CpuSetup:0xF2=0x00
 setup_var.efi SaSetup:0xDF=0x02
 ```
 
-## :hammer: Usage
+## :hammer_and_wrench: Usage
 
 1. Generate SMBIOS info and put it into `config.plist`.
 2. Put your EFI into EFI partition.
@@ -70,6 +70,11 @@ setup_var.efi SaSetup:0xDF=0x02
    # Optimize (optional)
    curl -sSL https://github.com/pexcn/hackintosh-fujitsu-lifebook-u938/raw/master/extras/optimize/pmset.sh | sudo sh -
    ```
+
+## :rocket: Updating
+
+> [!IMPORTANT]
+> Before macOS updating, need to set `SecureBootModel` to `Disabled` and enable verbose logging.
 
 ## :x: Not Working
 
