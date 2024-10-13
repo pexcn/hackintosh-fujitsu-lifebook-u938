@@ -41,6 +41,9 @@ setup_var.efi SaSetup:0xDF=0x02
 
 ## :hammer_and_wrench: Usage
 
+> [!TIP]
+If the installation cannot be completed successfully, try setting `SecureBootModel` to `Disabled`.
+
 1. Generate SMBIOS info and put it into `config.plist`.
 2. Put your EFI into EFI partition.
 
@@ -73,8 +76,13 @@ setup_var.efi SaSetup:0xDF=0x02
 
 ## :rocket: Updating
 
-> [!IMPORTANT]
-> Before macOS updating, need to set `SecureBootModel` to `Disabled` and enable verbose logging.
+Before macOS updating, make sure the following changes:
+
+1. Make sure SIP enabled.
+2. Set `SecureBootModel` to `Disabled`.
+3. Add `-v` into `boot-args` to enable verbose logging.
+
+After update is completed, undo the above changes.
 
 ## :x: Not Working
 
